@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('feed');
-});
+
+Route::auth();
+
+Route::get('/', 'HomeController@index');
