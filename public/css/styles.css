@@ -1,0 +1,27 @@
+body {
+  background-color: #E9EAED;
+}
+
+.navbar-default {
+  background-color:#22A7F0;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .navbar-default .navbar-brand {
+   color: #FFFFFF;
+ }
+
+ .navbar .brand, .navbar .nav > li > a {
+     color: #FFFFFF;
+ }
+
+ .navbar .brand, .navbar .nav > li > a:hover {
+    color: #81CFE0;
+}
+
+.jumbotron {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+}
